@@ -1,4 +1,4 @@
-Hi 👋 My name is Bailee Strait
+Hi! My name is Bailee Strait
 ==============================
 
 HCI/UX Student
