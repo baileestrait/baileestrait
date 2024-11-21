@@ -1,0 +1,72 @@
+marquee {
+			font-family: Monaco, monospace;
+			color: lightpink;
+			}
+		body {
+   background-image: url('data:image/svg+xml,%3Csvg width="52" height="26" viewBox="0 0 52 26" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="lightpink" fill-opacity="0.05"%3E%3Cpath d="M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z" /%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+			font-family: Monaco, monospace;
+			background-color: #212121;
+    }
+		.mainTitle {
+			font-family: Monaco, monospace;
+      border-radius: 15px;
+      padding: 20px;
+			background-color: black;
+			text-align: center;
+}
+.sectionHeader {
+  font-family: Moncao, monospace;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: lightpink;
+  color: #212121;
+  text-align: center;
+}
+.sectionSubHeader {
+  font-family: Monaco, monospace;
+  border-radius: 15px;
+   padding: 20px;
+  background-color: lightpink;
+  color: black;
+  text-align: center;
+}
+  .sectionSubHeaderVer2 {
+    font-size: 14px;
+    	font-family: Monaco, monospace;
+      border-radius: 15px;
+      padding: 20px;
+			background-color: black;
+			color: lightpink;
+			text-align: center;
+  }
+}
+.col-sm-6 {
+  font-family: Monaco, monospace;
+  color: white;
+}
+.col-md-8 {
+  font-family: Monaco, monospace;
+  color: white;
+}
+  .bodyParagraph {
+    font-size: 14px;
+  font-family: Monaco, monospace;
+  color: white;
+}
+    .list {
+      font-family: Monaco, monospace;
+      color: white;
+      font-size: 14px;
+}
+    a:link {
+			color:white;
+			}
+		a:visited {
+			color:lightpink;
+			}
+.center {
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+}
