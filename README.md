@@ -1,7 +1,7 @@
 Hi! My name is Bailee Strait
 ==============================
 
-HCI/UX Student
+Future IT Professional
 --------------
 
 <h2>🌍  I'm based in Florence, Alabama </h2>
