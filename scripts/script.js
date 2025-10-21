@@ -1,3 +1,3 @@
-document.getElementById("mainTitle").style.color = rgb(105, 28, 38);
+document.getElementById("mainTitle").style.color = #1a1a1a;
 
 document.getElementById("mainTitle").innerHTML = "Who is Bailee Strait?";
