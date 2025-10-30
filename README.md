@@ -5,6 +5,7 @@ Future IT Professional
 --------------
 
 <h2>🌍  I'm based in Florence, Alabama </h2>
+<h2><a href="https://baileestrait.github.io/baileestrait" target="_blank">About Me + Portfolio</a></h2>
 <h2><a href="https://www.linkedin.com/in/baileestrait" target="_blank">LinkedIn</a></h2>
 <h2>Currently Working On: </h2>
 <ul>
