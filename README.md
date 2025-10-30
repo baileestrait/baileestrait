@@ -5,11 +5,11 @@ Future IT Professional
 --------------
 
 <h2>🌍  I'm based in Florence, Alabama </h2>
-<h2>(www.linkedin.com/in/baileestrait)[LinkedIn]</h2>
+<h2>(www.linkedin.com/in/baileestrait)LinkedIn]</h2>
 <h2>Currently Working On: </h2>
   <h2><ul>
-    <li>[Swift Programming - UNA Campus Map](https://github.com/baileestrait/cis476-SWIFT) </li>
-    <li>[Whispering Pages - Virtual Bookshelf](https://github.com/ehb2004/bookworms)</li>
+    <li>(https://github.com/baileestrait/cis476-SWIFT)[Swift Programming - UNA Campus Map]</li>
+    <li>(https://github.com/ehb2004/bookworms)[Whispering Pages - Virtual Bookshelf]</li>
   </ul></h2>
 <h2> Skills </h2>
 <p align="left">
