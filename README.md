@@ -1,7 +1,7 @@
 Hi! My name is Bailee Strait
 ==============================
 
-Future IT Professional
+💻 Future IT Professional
 --------------
 
 <h2>🌍  I'm based in Florence, Alabama </h2>
