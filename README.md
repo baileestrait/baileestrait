@@ -2,6 +2,7 @@ Hi! My name is Bailee Strait
 ==============================
 
 💻 Future IT Professional
+--------------
 🎓 Information Technology (HCI/UX) at the University of North Alabama
 --------------
 
