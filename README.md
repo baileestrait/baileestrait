@@ -12,8 +12,7 @@ Hi! My name is Bailee Strait
 <h2><a href="https://www.linkedin.com/in/baileestrait" target="_blank">LinkedIn</a></h2>
 <h2>Currently Working On: </h2>
 <ul>
-  <li><a href="https://github.com/baileestrait/cis476-SWIFT" target="_blank">Swift Programming - UNA Campus Map</a></li>
-  <li><a href="https://github.com/ehb2004/bookworms" target="_blank">Whispering Pages - Virtual Bookshelf</a></li>
+  <li>Learning Unity & C# Programming></li>
 </ul>
 <h2> Skills </h2>
 <p align="left">
