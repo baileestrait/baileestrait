@@ -12,7 +12,7 @@ Hi! My name is Bailee Strait
 <h2><a href="https://www.linkedin.com/in/baileestrait" target="_blank">LinkedIn</a></h2>
 <h2>Currently Working On: </h2>
 <ul>
-  <li>Learning Unity & C# Programming></li>
+  <li>Learning Unity & C# Programming</li>
 </ul>
 <h2> Skills </h2>
 <p align="left">
