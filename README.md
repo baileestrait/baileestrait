@@ -1,7 +1,7 @@
 Hi! My name is Bailee Strait
 ==============================
 
-💻 Future IT Professional
+💻 Aspiring UX Designer
 --------------
 🎓 B.S. in Information Technology (HCI/UX) from the University of North Alabama
 --------------
