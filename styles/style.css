@@ -1,74 +1,60 @@
-marquee {
-			font-family: Monaco, monospace;
-			color: white;
-			}
-body {
-   background-image: url("data:image/svg+xml,%3Csvg width='84' height='16' viewBox='0 0 84 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M78 7V4h-2v3h-3v2h3v3h2V9h3V7h-3zM30 7V4h-2v3h-3v2h3v3h2V9h3V7h-3zM10 0h2v16h-2V0zm6 0h4v16h-4V0zM2 0h4v16H2V0zm50 0h2v16h-2V0zM38 0h2v16h-2V0zm28 0h2v16h-2V0zm-8 0h6v16h-6V0zM42 0h6v16h-6V0z' fill='%23090909' fill-opacity='0.21' fill-rule='evenodd'/%3E%3C/svg%3E");
-			font-family: Monaco, monospace;
-			background-color: #212121;
-    }
-		.mainTitle {
-			font-family: Monaco, monospace;
-      border-radius: 15px;
-      padding: 20px;
-			background-color: black;
-      color: white;
-			text-align: center;
+body, h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", sans-serif;
 }
-.sectionHeader {
-  font-family: Moncao, monospace;
-  border-radius: 15px;
-  padding: 10px;
-  background-color: white;
-  color: #212121;
-  text-align: center;
+.w3-row-padding img {
+  margin-bottom: 12px;
 }
-.sectionSubHeader {
-  font-size: 16px;
-  font-family: Monaco, monospace;
-  border-radius: 15px;
-   padding: 10px;
-  background-color: white;
-  color: black;
-  text-align: center;
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/documents/BS-003.jpg");
+  min-height: 100%;
 }
-  .sectionSubHeaderVer2 {
-    font-size: 18px;
-    	font-family: Monaco, monospace;
-      border-radius: 15px;
-      padding: 20px;
-			background-color: black;
-			color: white;
-			text-align: center;
-  }
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
 
-.col-sm-6 {
-  font-family: Monaco, monospace;
-  color: white;
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
 }
-.col-md-8 {
-  font-family: Monaco, monospace;
-  color: white;
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 }
-  .bodyParagraph {
-    font-size: 16px;
-  font-family: Monaco, monospace;
-  color: white;
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
 }
-    .list {
-      font-family: Monaco, monospace;
-      color: white;
-      font-size: 14px;
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
-    a:link {
-			color:white;
-			}
 		a:visited {
-			color:#be4a88;
+			color:#692e25;
 			}
-.center {
-  border-radius: 10px;
-  margin-left: 25%;
-  margin-right: 25%;
+.project-img {
+  width: 150px;
+  height: auto;
 }
-
+.list {
+  list-style-type: none;
+  padding: 0;
+}
