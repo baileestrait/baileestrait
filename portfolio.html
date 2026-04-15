@@ -1,84 +1,114 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Bailee Strait</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-</head>
+
 <body>
-<!-- partial:index.partial.html -->
-<!-- author: Bailee -->
 
-	<body>
+  <!-- Sidebar with image -->
+  <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+    <div class="bgimg"></div>
+  </nav>
 
-  <!--HEADER SECTION -->
-  <br>
-  <div class="container-sm">
-  <h4><a href ="index.html" target= ""> <- Back </a></h4>
-  <br>
-    </div>  
-	<div class="container-md">
-		<h1 class=mainTitle id="mainTitle">⋆˚࿔ Portfolio ⋆˚࿔</h1><br>
+  <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+  <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2"
+    id="mySidebar">
+    <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright"
+      style="padding:0 12px;">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+      <a href="index.html" class="w3-bar-item w3-button w3-text-white w3-hover-black" onclick="closeNav()">Home</a>
+      <a href="index.html#about" class="w3-bar-item w3-button w3-text-white w3-hover-black" onclick="closeNav()">About</a>
+      <a href="portfolio.html" class="w3-bar-item w3-button w3-text-white w3-hover-black"
+        onclick="closeNav()">Portfolio</a>
+        <a href="www.linkedin.com/in/baileestrait" class="w3-bar-item w3-button w3-text-white w3-hover-black" target="_blank" onclick="closeNav()">LinkedIn</a>
+      <a href="index.html#contact" class="w3-bar-item w3-button w3-text-white w3-hover-black" onclick="closeNav()">Contact</a>
     </div>
- <!-- ROW ONE BEGINS -->
-    <div class="container-sm">
-    <div class="row">
-      <div class="col-md-4">
-        <h4 class ="sectionHeader"><strong> Application Prototyping & Web Design </strong> </h4> 
-         <br>
-         <ul class="list">
-        <li><a href ="https://github.com/jaxn-harvey/iOS-UNAMapApp-Fall2025" target= "_blank">Swift iOS Development - UNA MapApp</a></li><br>
-        <li><a href ="https://github.com/ehb2004/bookworms" target= "_blank">Full Stack Development - Whispering Pages App</a></li><br>
-		<li><a href ="https://music-library-io5y.onrender.com/musiclibrary" target="_blank">Backend Development - Music Library</a></li><br>
-        <li><a href ="projects/research/SDLC_parkingportal/pt3design.pdf" target= "_blank">Figma Wireframing - UNA Parking App/a></li><br>
-        <li><a href ="projects/research/SDLC_parkingportal/pt4prototype.pdf" target= "_blank">Figma Prototyping - UNA Parking App</a></li><br>
-           </ul>
-        <br>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="w3-main w3-padding-large" style="margin-left:40%">
+
+    <!-- Menu icon to open sidebar -->
+    <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;"
+      onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+      <div class="w3-padding-32 w3-content" id="portfolio">
+        <h4 class="w3-text-grey">Application Development, Prototyping, & Web Design</h4>
+        <hr class="w3-opacity">
+          <br>
+          <ul class="list">
+            <li><a href="https://github.com/baileestrait/iOS-UNAMapApp-Fall2025" class="preview-link"target="_blank">Swift iOS Development -
+                UNA MapApp</a></li><br>
+            <li><a href="https://github.com/ehb2004/bookworms" target="_blank">Full Stack Development - Whispering Pages
+                App</a></li><br>
+            <li><a href="https://music-library-io5y.onrender.com/musiclibrary" target="_blank">Backend Development -
+                Music Library</a></li><br>
+            <li><a href="projects/research/SDLC_parkingportal/pt3design.pdf" target="_blank">Figma Wireframing - UNA
+                Parking App/a></li><br>
+            <li><a href="projects/research/SDLC_parkingportal/pt4prototype.pdf" target="_blank">Figma Prototyping - UNA
+                Parking App</a></li><br>
+          </ul>
+
+        <h4 class="w3-text-grey">Product Design & Art</h4>
+        <hr class="w3-opacity">
+          <br>
+          <ul class="list">
+            <li><a href="projects/art/connectionistimeless/Project2_FinalImage.png" target="_blank">Digital Media Photo
+                Collage</a></li><br>
+            <li><a href="projects/art/bootscoopbev/bootscoooplogo.png" target="_blank">Logo Design - Boot Scoop Beverage
+                Co.</a></li><br>
+            <li><a href="projects/art/bootscoopbev/finalpattern.png" target="_blank">Pattern Design - Boot Scoop
+                Beverage Co.</a></li><br>
+            <li><a href="projects/art/bootscoopbev/project3FINAL.png" target="_blank">Product Design - Boot Scoop
+                Beverage Co. Final</a></li><br>
+          </ul>
+
+        <h4 class="w3-text-grey">Research, Proposals, Presentations, & Technical Writing</h4>
+        <hr class="w3-opacity">
+          <br>
+          <ul class="list">
+            <li><a href="projects/research/SDLC_parkingportal/pt1proposal.pdf" target="_blank">SDLC Phase 1- UNA Parking
+                App Project Proposal</a></li><br>
+            <li><a href="projects/research/SDLC_parkingportal/pt2systemreqs.pdf" target="_blank">SDLC Phase 2 - UNA
+                Parking App System Requirements</a></li><br>
+            <li><a href="projects/research/SDLC_parkingportal/FINALpaper.pdf" target="_blank">UNA Parking Application
+                Summary</a></li><br>
+            <li><a href="projects/research/uxcapstone/litreview.pdf" target="_blank">User Experience Literature
+                Review</a></li><br>
+            <li><a href="projects/research/uxcapstone/developingproject.pdf" target="_blank">UX Research - Project
+                Development</a></li><br>
+            <li><a href="projects/research/uxcapstone/finalstudyscript.pdf" target="_blank">UX Research - Final Study
+                Script</a></li><br>
+            <li><a href="projects/research/uxcapstone/pilotstudies.pdf" target="_blank">UX Research- Pilot Studies</a>
+            </li><br>
+            <li><a href="projects/research/uxcapstone/understandingthedata.pdf" target="_blank">UX Research-
+                Understanding the Data</a></li><br>
+            <li><a href="projects/writing/technicalwritingproj.pdf" target="_blank">SEO Technical Writing Project</a>
+            </li><br>
+            <li><a href="projects/writing/multimodalproject.pdf" target="_blank">Fourth Wing Multimodal Project</a></li>
+            <br>
+          </ul>
+        </div>
+
+        <!-- END PAGE CONTENT -->
       </div>
-      
-        
-   <div class="col-md-4">
-        <h4 class ="sectionHeader"><strong> Art & Product Design </strong> </h4> 
-        <br>
-         <ul class="list">
-        <li><a href ="projects/art/connectionistimeless/Project2_FinalImage.png" target= "_blank">Digital Media Photo Collage - <em>Photoshop</em></a></li><br>
-        <li><a href ="projects/art/bootscoopbev/bootscoooplogo.png" target= "_blank">Logo Design - Boot Scoop Beverage Co. - <em>Procreate, Adobe Photoshop, Adobe InDesign</em></a></li><br>
-        <li><a href ="projects/art/bootscoopbev/finalpattern.png" target= "_blank">Pattern Design - Boot Scoop Beverage Co. - <em>Procreate, Adobe Photoshop</em></a></li><br>
-        <li><a href ="projects/art/bootscoopbev/project3FINAL.png" target= "_blank">Product Design - Boot Scoop Beverage Co. Final - <em>Procreate, Adobe Photoshop, Adobe Dimension</em></a></li><br>
-        </ul>
-        <br>
-
-      </div>
-
-
-      <div class="col-md-4">
-        <h4 class="sectionHeader"><strong> Research & Technical Writing </strong></h4>
-        <ul class="list">
-        <li><a href ="projects/research/SDLC_parkingportal/pt1proposal.pdf" target= "_blank">SDLC Phase 1- UNA Parking App Project Proposal</a></li><br>
-        <li><a href ="projects/research/SDLC_parkingportal/pt2systemreqs.pdf" target= "_blank">SDLC Phase 2 - UNA Parking App System Requirements</a></li><br>
-        <li><a href ="projects/research/SDLC_parkingportal/FINALpaper.pdf" target= "_blank">UNA Parking Application Summary</a></li><br>
-        <li><a href ="projects/research/uxcapstone/litreview.pdf" target= "_blank">User Experience Literature Review</a></li><br>
-        <li><a href ="projects/research/uxcapstone/developingproject.pdf" target= "_blank">UX Research - Project Development</a></li><br>
-        <li><a href ="projects/research/uxcapstone/finalstudyscript.pdf" target= "_blank">UX Research - Final Study Script</a></li><br>
-        <li><a href ="projects/research/uxcapstone/pilotstudies.pdf" target= "_blank">UX Research- Pilot Studies</a></li><br>
-        <li><a href ="projects/research/uxcapstone/understandingthedata.pdf" target= "_blank">UX Research- Understanding the Data</a></li><br>
-			<li><a href ="projects/writing/technicalwritingproj.pdf" target= "_blank">SEO Technical Writing Project</a></li><br>
-          <li><a href ="projects/writing/multimodalproject.pdf" target= "_blank">Fourth Wing Multimodal Project</a></li><br>
-      </ul>
-      </div>
-
-      </div>
-    </div>
-</div>
-
-       
-	</body>
-<!-- partial -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script><script  src="scripts/script.js"></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script>
+      <script src="scripts/script.js"></script>
 
 </body>
+
 </html>
