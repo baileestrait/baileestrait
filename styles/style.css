@@ -5,11 +5,15 @@ body, h1,h2,h3,h4,h5,h6 {
   margin-bottom: 12px;
 }
 .bgimg {
+  position: fixed;       /* ensures it fills sidebar */
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100vh;
+  background-image: url("../documents/BS-003.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../documents/BS-003.png");
-  height: 100vh;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
