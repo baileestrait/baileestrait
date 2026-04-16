@@ -8,7 +8,7 @@ body, h1,h2,h3,h4,h5,h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("documents/BS-003.png");
+  background-image: url("/documents/BS-003.png");
   min-height: 100%;
 }
 /* Style the buttons that are used to open and close the accordion panel */
